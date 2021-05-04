@@ -1,0 +1,50 @@
+<header>
+    <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                    <h4 class="text-white">acerca de Yamm´s</h4>
+                    <p class="text-muted">entidad dedicada al estampado serigrafico desde el 2017.
+                    </p>
+                </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                    <h4 class="text-white">Contact</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.instagram.com/yammaruemon/?hl=es" class="text-white">Instagram</a></li>
+                        <li><a href="#" (click)="logout()" class="text-white">Like on Facebook</a></li>
+                        <li><a [routerLink]="['/Login']" class="text-white">Entrar</a></li>
+                        <li class="nav-item" [routerLinkActive]="['link-active']" *ngIf="currentUser">
+                            <a class="nav-item nav-link" (click)="logout()">Salir</a>
+                        </li>
+                        <li class="nav-item" [routerLinkActive]="['link-active']" *ngIf="!currentUser">
+                            <a class="nav-item nav-link" [routerLink]="['/login']">Entrar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand d-flex align-items-center" [routerLink]="['/']">
+                <strong>YAMM ESTAMPADOS</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+    </div>
+    <div class="inner" id="vu">
+
+        <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" [routerLink]="['']">Home</a>
+            <a class="nav-link" [routerLink]="[ '/MostrarGalleria']">Galeria</a>
+            <a class="nav-link" [routerLink]="[ '/Tienda']">Tienda</a>
+            <a class="nav-link" [routerLink]="[ '/ProductoRegistrar']">agregar producto</a>
+            <a class="nav-link" [routerLink]="[ '/personaConsulta']">Ver pedidos</a>
+            <a class="nav-link" [routerLink]="[ '/ProductoMostrar']">Ver productos</a>
+            <a class="nav-link" [routerLink]="[ '/ProductoEliminar']">Eliminar producto</a>
+            <a class="nav-link" [routerLink]="[ '/Productoctualizar']">Actualizar productos</a>
+        </nav>
+    </div>
+</header>

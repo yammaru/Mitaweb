@@ -1,0 +1,47 @@
+<h2> ELIMINACION</h2>
+<br>
+<div class="container">
+
+    <div class="row">
+
+
+        <div class="col-md-6">
+            <form class="form">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <label class="control-label">Identificación:</label>
+                        <input type="text" id="persona.identificacion" class="form-control">
+                    </div><br>
+                    <div class="col-md-6">
+                        <button form="eliminacion" class="btn btn-primary btn-block" (click)="buscar()"> Buscar</button>
+                    </div><br>
+                    <div class="col-md-12">
+                        <label class="control-label">Nombre:<a id ="persona.nombre"></a></label>
+                    </div>
+                    <div class="col-md-12">
+                        <label class="control-label">Direccion:<a id ="persona.direccion"></a></label>
+                    </div>
+                    <div class="col-md-12">
+                        <label class="control-label">Barrio:<a id ="persona.barrio"></a></label>
+
+                    </div>
+
+                    <div class="col-md-12">
+                        <label class="control-label">Costo:<a id="persona.costo"></a></label>
+                    </div>
+                    <div class="col-md-12">
+                        <label class="control-label">Estado:<a id="persona.estado"></a></label>
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+
+        <div class="col-md-6">
+            <button type="reset" form="eliminacion" class="btn btn-secondary btn-block" (click)="eliminar()"> Eliminar</button>
+        </div>
+    </div>
+</div>

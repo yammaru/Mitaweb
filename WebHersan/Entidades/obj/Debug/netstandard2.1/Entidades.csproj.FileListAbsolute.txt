@@ -1,0 +1,9 @@
+C:\Users\pc\Documents\WebHersan\Entidades\bin\Debug\netstandard2.1\Entidades.deps.json
+C:\Users\pc\Documents\WebHersan\Entidades\bin\Debug\netstandard2.1\Entidades.dll
+C:\Users\pc\Documents\WebHersan\Entidades\bin\Debug\netstandard2.1\Entidades.pdb
+C:\Users\pc\Documents\WebHersan\Entidades\obj\Debug\netstandard2.1\Entidades.csprojAssemblyReference.cache
+C:\Users\pc\Documents\WebHersan\Entidades\obj\Debug\netstandard2.1\Entidades.AssemblyInfoInputs.cache
+C:\Users\pc\Documents\WebHersan\Entidades\obj\Debug\netstandard2.1\Entidades.AssemblyInfo.cs
+C:\Users\pc\Documents\WebHersan\Entidades\obj\Debug\netstandard2.1\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\WebHersan\Entidades\obj\Debug\netstandard2.1\Entidades.dll
+C:\Users\pc\Documents\WebHersan\Entidades\obj\Debug\netstandard2.1\Entidades.pdb

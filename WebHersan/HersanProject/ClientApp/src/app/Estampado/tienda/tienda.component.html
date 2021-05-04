@@ -1,0 +1,33 @@
+<main role="main">
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1>Tienda</h1>
+            <p class="lead text-muted">Estos son algunos de nuestros Producto terminados y listos para entregar</p>
+        </div>
+    </section>
+
+    <div class="album py-5 bg-light" *ngIf='personas && personas.length'>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4" *ngFor="let persona of personas|filtroPersona:searchText; index as i ">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="assets/d (3).jpg" alt="teien" width="300" height="300">
+                        <div class="card-body">
+                            <p class="card-text">{{ persona.identificacion }}, playera negra de 2do plano de naruto blanco con ojos kyubi color rojos</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar compra</button>
+                                </div>
+                                <small class="text-muted">$15000 COP</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>

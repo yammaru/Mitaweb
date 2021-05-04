@@ -1,0 +1,57 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h2>Registro de Personas</h2>
+            <form [formGroup]="formGroup">
+                <div class="form-group">
+                    <label>Identificacion</label>
+                    <input type="text" name="identificacion" [(ngModel)]="persona.identificacion" formControlName="identificacion" class="form-control" [ngClass]="{ 'is-invalid':  control.identificacion.errors}" />
+                    <div *ngIf="control.identificacion.errors"  class="invalid-feedback">
+                        <div *ngIf="control.identificacion.errors.required">Se require el identificacion</div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Nombre</label>
+        <input type="text" name="nombre" [(ngModel)]="persona.nombre" formControlName="nombre" class="form-control " [ngClass]="{ 'is-invalid':  control.nombre.errors}" />
+        <div *ngIf="control.nombre.errors"  class="invalid-feedback">
+            <div *ngIf="control.nombre.errors.required">Se require el nombre</div>
+</div>
+
+</div>
+<div class="form-group ">
+    <label>Direccion</label>
+    <input type="text" name="direccion" [(ngModel)]="persona.direccion" formControlName="direccion" class="form-control" [ngClass]="{ 'is-invalid':  control.direccion.errors}" />
+    <div *ngIf="control.direccion.errors"  class="invalid-feedback">
+        <div *ngIf="control.direccion.errors.required">Se require el direccion</div>
+</div>
+</div>
+<div class="form-group ">
+    <label>Barrio</label>
+    <input type="text" name="barrio" [(ngModel)]="persona.barrio" formControlName="barrio" class="form-control" [ngClass]="{ 'is-invalid':  control.barrio.errors}" />
+    <div *ngIf="control.barrio.errors"  class="invalid-feedback">
+        <div *ngIf="control.barrio.errors.required">Se require el barrio</div>
+</div>
+</div>
+<div class="form-group ">
+    <label>Costo</label>
+    <input type="number" name="costo" [(ngModel)]="persona.costo" formControlName="costo" class="form-control" [ngClass]="{ 'is-invalid':  control.costo.errors}" />
+    <div *ngIf="control.costo.errors"  class="invalid-feedback">
+        <div *ngIf="control.costo.errors.required">Se require el costo</div>
+</div>
+</div>
+<div class="form-group ">
+    <label>Estado</label>
+    <input type="text" name="estado" [(ngModel)]="persona.estado" formControlName="estado" class="form-control" [ngClass]="{ 'is-invalid':  control.estado.errors}" />
+    <div *ngIf="control.estado.errors"  class="invalid-feedback">
+        <div *ngIf="control.estado.errors.required">Pago o No Pago</div>
+</div>
+
+</div>
+<div class="text-center ">
+    <button class="btn btn-primary mr-1" (click)="onSubmit()" [disabled]="formGroup.invalid">Registrar</button>
+    <button class="btn btn-secondary" type="reset ">Cancel</button>
+</div>
+</form>
+</div>
+</div>
+</div>

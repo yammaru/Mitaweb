@@ -1,0 +1,12 @@
+C:\Users\pc\Documents\WebHersan\Datos\bin\Debug\netstandard2.1\Datos.deps.json
+C:\Users\pc\Documents\WebHersan\Datos\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\pc\Documents\WebHersan\Datos\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\pc\Documents\WebHersan\Datos\bin\Debug\netstandard2.1\Entidades.dll
+C:\Users\pc\Documents\WebHersan\Datos\bin\Debug\netstandard2.1\Entidades.pdb
+C:\Users\pc\Documents\WebHersan\Datos\obj\Debug\netstandard2.1\Datos.csprojAssemblyReference.cache
+C:\Users\pc\Documents\WebHersan\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfoInputs.cache
+C:\Users\pc\Documents\WebHersan\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfo.cs
+C:\Users\pc\Documents\WebHersan\Datos\obj\Debug\netstandard2.1\Datos.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\WebHersan\Datos\obj\Debug\netstandard2.1\Datos.csproj.CopyComplete
+C:\Users\pc\Documents\WebHersan\Datos\obj\Debug\netstandard2.1\Datos.dll
+C:\Users\pc\Documents\WebHersan\Datos\obj\Debug\netstandard2.1\Datos.pdb
